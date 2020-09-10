@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Momentum by Ying Hang",
+  "version": "1.0",
+
+
+  "browser_action": {
+    "default_icon": "logo.png"
+  },
+
+  "chrome_url_overrides": {
+    "newtab": "popup.html"
+  },
+
+  "permissions": [
+    "activeTab"
+  ]
+}
